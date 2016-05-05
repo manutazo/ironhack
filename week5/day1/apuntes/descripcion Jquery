@@ -1,0 +1,10 @@
+jQuery es una biblioteca de JavaScript, creada inicialmente por John Resig, que permite
+simplificar la manera de interactuar con los documentos HTML, manipular el árbol DOM,
+manejar eventos, desarrollar animaciones
+y agregar interacción con la
+técnica AJAX a páginas web.
+
+
+
+documentación: http://api.jquery.com/	  (oficial)
+http://librosweb.es/libro/ajax/capitulo_10/la_libreria_jquery.html

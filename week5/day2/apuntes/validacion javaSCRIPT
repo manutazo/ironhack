@@ -1,0 +1,17 @@
+function ...
+if (user.uncampo === '') returns false
+if (user.otrocampo === 'vacio') returns false
+
+
+-------------------------------------------------
+if (user.uncampo === '') push ...
+if (user.otrocampo === 'vacio') push ..
+? message === true
+! === false
+
+———————————————————————————
+  if (user.name === '') messages.push('Tienes que rellenar el nombre');
+    if (user.occupation === '') messages.push('Tienes que rellenar ocupación');
+    return messages.length !== 0
+      ? messages
+      : false;

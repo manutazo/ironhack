@@ -1,0 +1,17 @@
+<% @concerts.each do |concert| %>
+<h4>ARTIST</h4>
+<p><%= concert.artist %></p>
+<h4>VENUE</h4>
+<p><%= concert.venue %></p>
+<h4>CITY</h4>
+<p><%= concert.city %></p>
+<h4>DATE</h4>
+<p><%= concert.date %></p>
+<h4>PRICE</h4>
+<p><%= concert.price %></p>
+<h4>DESCRIPTION</h4>
+<p><%= concert.description %></p>
+<p>-----------------------------------------------------------------</p>
+<% end %>
+
+<%= link_to 'Add new concert', new_concert_path %>

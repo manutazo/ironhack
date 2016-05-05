@@ -1,0 +1,28 @@
+.main-footer{
+	background: #000;
+}
+
+.text-footer{
+	color: #fff;
+}
+
+.slides{
+	width: 1280px;
+	height: 550px;
+
+}
+
+.container-posts{
+	background-color: red;
+}
+
+.container-footer{
+	background-color: black;
+	color: white;
+	border-top: 4px solid red;
+	/*border-top: 10px;*/
+}
+.text-copiright{
+	background-color: grey;
+	color: white;
+}

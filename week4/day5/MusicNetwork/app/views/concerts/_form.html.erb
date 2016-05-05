@@ -1,0 +1,15 @@
+<%= form_for @concert do |f| %>
+	<%= f.label :artist %>
+	<div><%= f.text_field :artist %></div>
+	<%= f.label :venue %>
+	<div><%= f.text_field :venue %></div>
+	<%= f.label :city %>
+	<div><%= f.text_field :city %></div>
+	<%= f.label :date %>
+	<div><%= f.date_field :date %></div>
+	<%= f.label :price %>
+	<div><%= f.text_field :price %></div>
+	<%= f.label :description %>
+	<div><%= f.text_field :description %></div>
+		<div><%= f.submit %></div>
+<%end%>
